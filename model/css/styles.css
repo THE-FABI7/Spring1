@@ -1,0 +1,62 @@
+.menu {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.img-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://www.lokad.com/public/Upload/Support/Glossary/inventory-turnover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-principal h1 {
+  color: white;
+}
+
+.img-principal button {
+  background: black;
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.img-principal button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg, 
+    red, blue, deeppink, blue,
+      red, blue, deeppink, blue
+  );
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+}
+
+.footer-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
