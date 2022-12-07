@@ -1,0 +1,18 @@
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: blueviolet;
+  }
+
+  .login-form{
+    padding: 10px;
+    background-color: black;
+    padding: 16px 32px;
+    color: white;
+    font-size: 14px;
+
+  }
